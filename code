@@ -1,0 +1,25 @@
+ovqatlar = {
+    "osh": 30000,
+    "kabob": 14000,
+    "somsa": 8000,
+    "non": 3000,
+    "do'lma": 30000,
+    "mastava": 25000,
+    "lagmon": 28000,
+    "qanot": 30000,
+    "assorti": 120000,
+    "desert": 10000
+}
+
+buyurtmalar = []
+
+for i in range(3):
+    buyurtmalar.append(input(f"{i+1} - buyurtmani bering = "))
+
+for buyurtma in buyurtmalar:
+    if buyurtma in ovqatlar.keys():
+        print(f"{buyurtma} - {ovqatlar[buyurtma]} so'm")
+    else:
+        print(f"uzr bizda {buyurtma} yo'q")
+
+        
