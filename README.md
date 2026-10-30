@@ -1,2 +1,1 @@
-# python-problem2
-thi
+this little solution can be applied some restuarant
